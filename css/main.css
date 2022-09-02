@@ -646,6 +646,11 @@ body {
     margin-top: 21px;
 }
 
+.footer-hide3 {
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+}
+
 .hide-btn-1 {
     display: none;
 }

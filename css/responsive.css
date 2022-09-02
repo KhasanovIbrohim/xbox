@@ -161,6 +161,9 @@
         padding-top: 25px;
         font-size: 60px;
     }
+    .footer {
+        background-color: #0C0C0C;
+    }
     .footer-box {
         margin-left: 25px;
     }
@@ -169,9 +172,14 @@
     }
     .footer-show-btn {
         margin-left: 90px;
+        background-color: #0C0C0C;
     }
     .footer-hide-btn {
         margin-left: 90px;
+        background-color: #0C0C0C;
+    }
+    .header {
+        background-color: #0C0C0C;
     }
     .header-list {
         width: 550px;
