@@ -1,0 +1,51 @@
+@media (max-width: 600px) {
+    .container {
+        width: 600px;
+    }
+    .navbar {
+        width: 550px;
+        border: 2px solid red;
+    }
+    .navbar img {
+        margin-top: 25px;
+        margin-left: 25px;
+        margin-bottom: 25px;
+    }
+    .nav-list {
+        display: none;
+    }
+    .nav-btn {
+        display: none;
+    }
+    .intro-box {
+        width: 550px;
+        border: 2px solid red;
+        background-position: center;
+        background-size: cover;
+    }
+    .intro-list {
+        width: 550px;
+    }
+    .intro-list h1 {
+        margin-left: 25px;
+    }
+    .intro-title {
+        margin-top: 100px;
+    }
+    .intro-text {
+        font-size: 120px;
+    }
+    .settings-list {
+        width: 550px;
+        flex-wrap: wrap;
+    }
+    .settings-list div {
+        margin-left: 50px;
+    }
+    .doom-title {
+        font-size: 80px;
+    }
+    .doom-row {
+        width: 550px;
+    }
+}
