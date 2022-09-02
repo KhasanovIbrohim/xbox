@@ -4,7 +4,6 @@
     }
     .navbar {
         width: 550px;
-        border: 2px solid red;
     }
     .navbar img {
         margin-top: 25px;
@@ -19,7 +18,6 @@
     }
     .intro-box {
         width: 550px;
-        border: 2px solid red;
         background-position: center;
         background-size: cover;
     }
@@ -47,5 +45,143 @@
     }
     .doom-row {
         width: 550px;
+    }
+    .doom-box {
+        width: 550px;
+        margin-left: 25px;
+    }
+    .doom-b-title {
+        margin-left: 25px;
+    }
+    .doom-b-text {
+        margin-left: 25px;
+    }
+    .doom-b-li {
+        margin-left: 25px;
+    }
+    .optimized-box {
+        width: 550px;
+        margin-left: 25px;
+    }
+    .optimized-title {
+        margin-left: 25px;
+    }
+    .optimized-text {
+        margin-left: 25px;
+    }
+    .optimized-box img {
+        display: none;
+    }
+    .control-box {
+        display: block;
+        width: 550px;
+        margin-left: 25px;
+    }
+    .control-left {
+        width: 550px;
+        margin-left: 0px;
+    }
+    .control-left img {
+        margin-left: 0px;
+        width: 550px;
+        height: 652px;
+    }
+    .control-r-title {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .control-right img {
+        width: 550px;
+        height: 652px;
+    }
+    .control-r-box {
+        width: 550px;
+    }
+    .control-r-box h1 {
+        margin-left: -30px;
+    }
+    .control-r-box p {
+        margin-left: 53px;
+    }
+    .control-r-box img {
+        margin-left: 0px;
+        width: 500px;
+        height: 194px;
+    }
+    .technology-box {
+        width: 550px;
+        margin-left: 25px;
+        background-size: cover;
+        height: 700px;
+    }
+    .technology-title {
+        margin-left: 0px;
+        font-size: 70px;
+    }
+    .technology-text {
+        margin-left: 0px;
+    }
+    .technology-btn {
+        display: none;
+    }
+    .buy-box {
+        width: 550px;
+        background-position: center;
+        background-size: cover;
+        margin-left: 25px;
+        margin-top: 0px;
+    }
+    .buy-title {
+        font-size: 80px;
+        margin-top: 0px;
+    }
+    .buy-link {
+        display: none;
+    }
+    .buy-row {
+        width: 550px;
+        background-position: center;
+        background-size: cover;
+        padding: 0;
+    }
+    .buy-row img {
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+    .footer-title {
+        padding-left: 25px;
+        padding-top: 25px;
+        font-size: 60px;
+    }
+    .footer-box {
+        margin-left: 25px;
+    }
+    .footerminibox {
+        width: 550px;
+    }
+    .footer-show-btn {
+        margin-left: 90px;
+    }
+    .footer-hide-btn {
+        margin-left: 90px;
+    }
+    .header-list {
+        width: 550px;
+        padding-top: 100px;
+    }
+    .header-logo {
+        margin-left: 25px;
+    }
+    .header-link {
+        display: none;
+    }
+    .header-icons {
+        margin-left: 270px;
+    }
+    .header-end {
+        width: 550px;
+        justify-content: space-around;
+        margin-left: 25px;
     }
 }
