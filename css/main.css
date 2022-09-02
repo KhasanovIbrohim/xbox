@@ -1,0 +1,710 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #0C0C0C;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* Navbar Start */
+
+.navbar {
+    display: flex;
+}
+
+.navbar img {
+    height: 44px;
+    width: 144px;
+    border-radius: 0px;
+    margin-left: 106px;
+    margin-top: 72px;
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: 213px;
+    margin-top: 86px;
+}
+
+.nav-list li a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    transition: all 0.3s;
+}
+
+.nav-btn {
+    margin-top: 66px;
+    background-color: #9BF00B;
+    color: #0A0A0A;
+    width: 189px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #0A0A0A;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 229px;
+    border: 1px solid #9BF00B;
+    margin-bottom: 33px;
+}
+
+#nav-link {
+    margin-left: 43px;
+}
+
+/* Intro Start */
+
+.intro-box {
+    border: 2px solid #0C0C0C;
+    height: 1010px;
+    background-image: url("../img/image/xbox.png");
+    background-repeat: no-repeat;
+    background-position: 594px;
+}
+
+.intro-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #9BF00B;
+    margin-left: 106px;
+    margin-top: 283px;
+}
+
+.intro-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 171px;
+    line-height: 90.8%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-left: 106px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+
+.intro-sentence {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #818181;
+    margin-left: 106px;
+}
+
+/* Settings Started */
+
+.settings-list {
+    display: flex;
+}
+
+.settings-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #818181;
+}
+
+.settings-image {
+    height: 96px;
+    width: 125px;
+}
+
+.fourk {
+    margin-left: 205px;
+}
+
+.hdr {
+    margin-left: 101px;
+}
+
+.hundredfps {
+    margin-left: 87px;
+}
+
+.architecture {
+    margin-left: 90px;
+}
+
+/* Doom started */
+
+.doom-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 91px;
+    line-height: 115%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.doom-title span {
+    color: #92E10B;
+}
+
+.doom-box {
+    width: 1232px;
+    height: 754px;
+    background-image: url("../img/image/doom.png");
+    margin-left: 104px;
+}
+
+.doom-b-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-left: 677px;
+    padding-top: 192px;
+}
+
+.doom-b-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #8A8A8A;
+    margin-left: 677px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.doom-b-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #9BF00B;
+    margin-left: 677px;
+}
+
+/* Optimized Start */
+
+.optimized-box {
+    height: 755px;
+    width: 1232px;
+    left: 104px;
+    top: 2760px;
+    border-radius: 0px;
+    background-image: url("../img/image/gamesbg.png");
+    margin-left: 104px;
+    margin-top: 70px;
+}
+
+.optimized-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 110%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    padding-top: 196px;
+    margin-left: 144px;
+}
+
+.optimized-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #8A8A8A;
+    margin-left: 144px;
+    margin-top: 30px;
+}
+
+.optimized-cyberpunk {
+    position: absolute;
+    z-index: 2;
+    margin-left: 668px;
+    transform: translateY(-460px);
+}
+
+.optimized-assasin {
+    position: absolute;
+    margin-left: 922px;
+    transform: translateY(-170px);
+}
+
+.optimized-medium {
+    position: absolute;
+    margin-left: 945px;
+    transform: translateY(-530px);
+}
+
+/* Constrol Start */
+
+.contol-title {
+    margin-top: 132px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 91px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.contol-title span {
+    color: #92E10B;
+}
+
+.control-box {
+    display: flex;
+}
+
+.control-left {
+    margin-left: 104px;
+}
+
+.control-left img {
+    width: 608px;
+    height: 702px;
+}
+
+.control-right {
+    margin-right: 105px;
+}
+
+.control-right img {
+    width: 608px;
+    height: 702px;
+}
+
+.control-r-box {
+    background: linear-gradient(155.3deg, #92E10B 1.33%, #BAFF43 46.46%, #588C00 92.54%);
+    box-shadow: inset 0px 4px 64px #B7FF3D;
+    width: 608px;
+    height: 702px;
+    margin-top: -35px;
+}
+
+.control-r-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #818181;
+    margin-left: 80px;
+    margin-bottom: 122px;
+}
+
+.control-box-xbox2 {
+    margin-top: 18px;
+}
+
+.control-r-box h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110%;
+    letter-spacing: -0.03em;
+    color: #000000;
+    padding-left: 85px;
+    padding-top: 86px;
+}
+
+.control-r-box p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #304D00;
+    margin-left: 85px;
+}
+
+.control-r-box img {
+    width: 514px;
+    height: 208px;
+    margin-left: 33px;
+}
+
+.control-box-xbox1 {
+    margin-top: 100px;
+}
+
+/* Technology Start */
+
+.technology-box {
+    height: 1370px;
+    background-image: url("../img/image/technologybg.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.technology-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 91px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-left: 104px;
+    margin-top: 200px;
+    margin-bottom: 41px;
+}
+
+.technology-title span {
+    color: #9BF00B;
+}
+
+.technology-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #A0A0A0;
+    margin-left: 104px;
+}
+
+.technology-btn {
+    background: #9BF00B;
+    border: 1px solid #BBFF48;
+    box-shadow: inset 0px 3.29023px 52.6437px #B7FF3D;
+    border-radius: 100%;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+}
+
+.technology-btn img {
+    height: 24px;
+    width: 24px;
+    padding-top: 9px;
+    padding-bottom: 10px;
+}
+
+.plus1 {
+    transform: translateX(846px);
+    margin-top: -100px;
+}
+
+.plus2 {
+    transform: translateX(920px);
+    margin-top: 200px;
+}
+
+.plus3 {
+    transform: translateX(590px);
+    margin-top: 380px;
+}
+
+.plus4 {
+    transform: translateX(330px);
+    margin-top: 385px;
+}
+
+/* Buy Start */
+
+.buy-box {
+    background-image: url("../img/image/light.png");
+}
+
+.buy-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 91px;
+    line-height: 115%;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.buy-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    margin-top: -70px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.buy-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #9BF00B;
+    margin-left: 659px;
+}
+
+.buy-row {
+    background-image: url("../img/image/xboxbg.png");
+    height: 495px;
+    width: 1121px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.buy-row {
+    padding-left: 313px;
+    padding-top: 68px;
+}
+
+/* footer Start */
+
+.footer {
+    margin-top: -61px;
+    background: #080808;
+}
+
+.footer-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 91px;
+    line-height: 100%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    padding-top: 142px;
+    padding-left: 104px;
+}
+
+.footer-title span {
+    color: #92E10B;
+}
+
+.footerminibox {
+    width: 1223px;
+}
+
+.footer-hide1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #777777;
+    display: none;
+    margin-left: 2px;
+    margin-bottom: 40px;
+}
+
+.footer-hide2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #777777;
+    display: none;
+    margin-left: 2px;
+    margin-bottom: 40px;
+}
+
+.footer-hide3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #777777;
+    display: none;
+    margin-left: 2px;
+    margin-bottom: 40px;
+}
+
+.footer-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    width: 710px;
+    margin-top: 40px;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-box {
+    margin-left: 106px;
+}
+
+.footer-show-btn {
+    height: 60.00000000000023px;
+    width: 60.00000000000023px;
+    background-color: #080808;
+    border: none;
+    opacity: 0.8;
+    margin-left: 451px;
+    margin-top: 21px;
+}
+
+.footer-hide-btn {
+    height: 60px;
+    width: 60px;
+    background-color: #080808;
+    border: none;
+    margin-left: 451px;
+    margin-top: 21px;
+}
+
+.hide-btn-1 {
+    display: none;
+}
+
+.hide-btn-2 {
+    display: none;
+}
+
+.hide-btn-3 {
+    display: none;
+}
+
+/* Header Start */
+
+.header {
+    background: #080808;
+}
+
+.header-list {
+    display: flex;
+    padding-top: 230px;
+}
+
+.header-icons {
+    display: flex;
+    width: 152px;
+    height: 40px;
+    justify-content: space-between;
+    margin-left: 222px;
+    margin-top: 7px;
+}
+
+.header-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+.header-logo {
+    margin-left: 106px;
+    width: 144px;
+    height: 44px;
+    margin-top: 4px;
+}
+
+.header-link {
+    margin-left: 230px;
+    display: flex;
+}
+
+.header-link li a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #A0A0A0;
+    transition: all 0.3s;
+}
+
+.micrasoft-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #777777;
+}
+
+.micrasoft-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #777777;
+}
+
+.micrasoft-text a {
+    color: #92E10B;
+}
+
+.micrasoft-sentence {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.03em;
+    color: #777777;
+}
+
+.header-end {
+    width: 1223px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 104px;
+    margin-top: 100px;
+    padding-bottom: 95px;
+}
