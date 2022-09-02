@@ -10,6 +10,10 @@ var hidebtn1 = document.querySelector(".hide-btn-1")
 var hidebtn2 = document.querySelector(".hide-btn-2")
 var hidebtn3 = document.querySelector(".hide-btn-3")
 
+var openBtn = document.querySelector("#burger-btn")
+var hideBtn = document.querySelector("#burger-close")
+var burgerMenu = document.querySelector(".burger-menu")
+
 function show1() {
     hide1.style.display = "block";
     showbtn1.style.display = "none";
@@ -46,6 +50,20 @@ function delete3() {
     showbtn3.style.display = "block";
 }
 
-function zur() {
-    alert("OK")
+function burgerShow() {
+    burgerMenu.style.display = "block";
+    openBtn.style.display = "none";
+    hideBtn.style.display = "block";
+}
+
+function burgerHide() {
+    burgerMenu.style.display = "none";
+    openBtn.style.display = "block";
+    hideBtn.style.display = "none";
+}
+
+function closeAll() {
+    burgerMenu.style.display = "none";
+    openBtn.style.display = "block";
+    hideBtn.style.display = "none";
 }

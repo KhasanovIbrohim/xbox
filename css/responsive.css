@@ -5,10 +5,11 @@
     .nav {
         position: fixed;
         background-color: #0C0C0C;
+        z-index: 5;
+        margin-top: -100px;
     }
     .navbar {
         width: 550px;
-        border: 2px solid red;
     }
     .navbar img {
         margin-top: 25px;
@@ -25,6 +26,7 @@
         width: 550px;
         background-position: center;
         background-size: cover;
+        margin-top: 100px;
     }
     .intro-list {
         width: 550px;

@@ -28,22 +28,40 @@
         <div class="container">
             <div class="navbar">
                 <img src="./img/logo/logo.png" alt="logo" class="nav-logo">
-                <img id="burger-btn" src="./img/logo/burgeropen.png"/>
+                <img id="burger-btn" onclick="burgerShow()" src="./img/logo/burgeropen.png" />
+                <img id="burger-close" onclick="burgerHide()"
+                    src="https://img.icons8.com/ios-filled/50/9BF00B/delete-sign--v1.png" />
                 <ul class="nav-list">
                     <li>
-                        <a href="#">Browse</a>
+                        <a href="#brawse">Browse</a>
                     </li>
                     <li>
-                        <a href="#" id="nav-link">Games</a>
+                        <a href="#games" id="nav-link">Games</a>
                     </li>
                     <li>
-                        <a href="#" id="nav-link">contRoller</a>
+                        <a href="#controller" id="nav-link">contRoller</a>
                     </li>
                     <li>
-                        <a href="#" id="nav-link">inside</a>
+                        <a href="#inside" id="nav-link">inside</a>
                     </li>
                 </ul>
                 <button class="nav-btn">Order console</button>
+            </div>
+            <div class="burger-menu">
+                <ul>
+                    <li onclick="closeAll()">
+                        <a class="burger-link" href="#brawse">Browse</a>
+                    </li>
+                    <li onclick="closeAll()">
+                        <a class="burger-link" href="#games">Games</a>
+                    </li>
+                    <li onclick="closeAll()">
+                        <a class="burger-link" href="#controller">Controller</a>
+                    </li>
+                    <li onclick="closeAll()">
+                        <a class="burger-link" href="#inside">inside</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
@@ -60,7 +78,7 @@
             </div>
         </div>
     </section>
-    <section class="settings">
+    <section class="settings" id="brawse">
         <div class="container">
             <div class="settings-list">
                 <div class="settings-box fourk">
@@ -86,7 +104,7 @@
         <div class="container">
             <div class="doom-row">
                 <h1 class="doom-title">The fastest and the most <br> powerful console xbox <br> for the <span>entire
-                    history</span></h1>
+                        history</span></h1>
             </div>
             <div class="doom-box">
                 <h1 class="doom-b-title">Power you <br> dreams</h1>
@@ -96,7 +114,7 @@
             </div>
         </div>
     </section>
-    <section class="optimized">
+    <section class="optimized" id="games">
         <div class="container">
             <div class="optimized-box">
                 <h1 class="optimized-title">Optimized for <br> series X-S</h1>
@@ -109,7 +127,7 @@
             </div>
         </div>
     </section>
-    <section class="control">
+    <section class="control" id="controller">
         <div class="container">
             <h1 class="contol-title">Complete <span>control</span></h1>
             <div class="control-box">
@@ -131,7 +149,7 @@
             </div>
         </div>
     </section>
-    <section class="technology">
+    <section class="technology" id="inside">
         <div class="container">
             <div class="technology-box">
                 <h1 class="technology-title">Technologically <br> <span>perfect</span></h1>
@@ -200,16 +218,16 @@
                 <img src="./img/logo/logo.png" alt="header-logo" class="header-logo">
                 <ul class="header-link">
                     <li>
-                        <a href="#">Browse</a>
+                        <a href="#brawse">Browse</a>
                     </li>
                     <li>
-                        <a href="#" id="nav-link">Games</a>
+                        <a href="#games" id="nav-link">Games</a>
                     </li>
                     <li>
-                        <a href="#" id="nav-link">contRoller</a>
+                        <a href="#controller" id="nav-link">contRoller</a>
                     </li>
                     <li>
-                        <a href="#" id="nav-link">inside</a>
+                        <a href="#inside" id="nav-link">inside</a>
                     </li>
                 </ul>
                 <div class="header-icons">
