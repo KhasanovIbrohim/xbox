@@ -3,7 +3,7 @@
         width: 600px;
     }
     .navbar {
-        width: 550px;
+        width: 600px;
     }
     .navbar img {
         margin-top: 25px;
@@ -17,12 +17,12 @@
         display: none;
     }
     .intro-box {
-        width: 550px;
+        width: 600px;
         background-position: center;
         background-size: cover;
     }
     .intro-list {
-        width: 550px;
+        width: 600px;
     }
     .intro-list h1 {
         margin-left: 25px;
@@ -34,7 +34,7 @@
         font-size: 120px;
     }
     .settings-list {
-        width: 550px;
+        width: 600px;
         flex-wrap: wrap;
     }
     .settings-list div {
@@ -44,10 +44,10 @@
         font-size: 80px;
     }
     .doom-row {
-        width: 550px;
+        width: 600px;
     }
     .doom-box {
-        width: 550px;
+        width: 600px;
         margin-left: 25px;
     }
     .doom-b-title {
@@ -60,7 +60,7 @@
         display: none;
     }
     .optimized-box {
-        width: 550px;
+        width: 600px;
         margin-left: 25px;
     }
     .optimized-title {
@@ -74,16 +74,16 @@
     }
     .control-box {
         display: block;
-        width: 550px;
+        width: 600px;
         margin-left: 25px;
     }
     .control-left {
-        width: 550px;
+        width: 600px;
         margin-left: 0px;
     }
     .control-left img {
         margin-left: 0px;
-        width: 550px;
+        width: 600px;
         height: 652px;
     }
     .control-r-title {
@@ -92,11 +92,11 @@
         text-align: center;
     }
     .control-right img {
-        width: 550px;
+        width: 600px;
         height: 652px;
     }
     .control-r-box {
-        width: 550px;
+        width: 600px;
     }
     .control-r-box h1 {
         margin-left: -30px;
@@ -110,7 +110,7 @@
         height: 194px;
     }
     .technology-box {
-        width: 550px;
+        width: 600px;
         margin-left: 25px;
         background-size: cover;
         height: 700px;
@@ -126,7 +126,7 @@
         display: none;
     }
     .buy-box {
-        width: 550px;
+        width: 600px;
         background-position: center;
         background-size: cover;
         margin-left: 25px;
@@ -140,7 +140,7 @@
         display: none;
     }
     .buy-row {
-        width: 550px;
+        width: 600px;
         background-position: center;
         background-size: cover;
         padding: 0;
@@ -158,7 +158,7 @@
         margin-left: 25px;
     }
     .footerminibox {
-        width: 550px;
+        width: 600px;
     }
     .footer-show-btn {
         margin-left: 90px;
@@ -167,7 +167,7 @@
         margin-left: 90px;
     }
     .header-list {
-        width: 550px;
+        width: 600px;
         padding-top: 100px;
     }
     .header-logo {
@@ -180,7 +180,7 @@
         margin-left: 270px;
     }
     .header-end {
-        width: 550px;
+        width: 600px;
         justify-content: space-around;
         margin-left: 25px;
     }
