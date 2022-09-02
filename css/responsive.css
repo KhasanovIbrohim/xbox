@@ -57,7 +57,7 @@
         margin-left: 25px;
     }
     .doom-b-li {
-        margin-left: 25px;
+        display: none;
     }
     .optimized-box {
         width: 550px;
