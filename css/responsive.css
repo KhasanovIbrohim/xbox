@@ -2,8 +2,13 @@
     .container {
         width: 600px;
     }
+    .nav {
+        position: fixed;
+        background-color: #0C0C0C;
+    }
     .navbar {
         width: 550px;
+        border: 2px solid red;
     }
     .navbar img {
         margin-top: 25px;
@@ -183,5 +188,12 @@
         width: 550px;
         justify-content: space-around;
         margin-left: 25px;
+    }
+    .footer-hide3 {
+        margin-bottom: 0px;
+        padding-bottom: 40px;
+    }
+    #burger-btn {
+        display: block;
     }
 }

@@ -45,3 +45,7 @@ function delete3() {
     hidebtn3.style.display = "none";
     showbtn3.style.display = "block";
 }
+
+function zur() {
+    alert("OK")
+}
