@@ -21,7 +21,7 @@ body {
 
 .navbar {
     display: flex;
-}   
+}
 
 .nav-logo {
     height: 44px;
@@ -127,6 +127,17 @@ body {
     background-image: url("../img/image/xbox.png");
     background-repeat: no-repeat;
     background-position: 594px;
+    animation: intro-box 2s ease;
+}
+
+@keyframes intro-box {
+    from {
+        background-position: 594px 300px;
+        opacity: 0;
+    }
+    to {
+        background-position: 594px -0;
+    }
 }
 
 .intro-title {
@@ -544,6 +555,20 @@ body {
 .buy-row {
     padding-left: 313px;
     padding-top: 68px;
+}
+
+.buy-row img {
+    animation: rotate 3s infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
 }
 
 /* footer Start */

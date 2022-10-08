@@ -27,6 +27,15 @@
         background-position: center;
         background-size: cover;
         margin-top: 100px;
+        animation: mobile-intro-box 2s ease;
+    }
+    @keyframes mobile-intro-box {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
     }
     .intro-list {
         width: 550px;
