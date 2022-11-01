@@ -609,6 +609,7 @@ body {
     display: none;
     margin-left: 2px;
     margin-bottom: 40px;
+    animation: footer-hider 1s ease;
 }
 
 .footer-hide2 {
@@ -622,6 +623,7 @@ body {
     display: none;
     margin-left: 2px;
     margin-bottom: 40px;
+    animation: footer-hider 1s ease;
 }
 
 .footer-hide3 {
@@ -635,6 +637,18 @@ body {
     display: none;
     margin-left: 2px;
     margin-bottom: 40px;
+    animation: footer-hider 1s ease;
+}
+
+@keyframes footer-hider{
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 .footer-link {
